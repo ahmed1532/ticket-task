@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket task</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+
+  <body>
+    <main>
+      <div class="title-page">
+        <div class="right">
+          <img src="images/title arrow.png" />
+          <h1>تذكرة رقم #2342</h1>
+        </div>
+        <div class="left">
+          <img src="images/title edit.png" />
+          <h5>تعديل</h5>
+        </div>
+      </div>
+      <div class="top">
+        <div class="statestics">
+          <div class="title">
+            <div>
+              <p class="title2">إحصائيات إستخدام القسيمة</p>
+              <div class="date">
+                <p>05 يوليو , 2023 - 05 أغسطس , 2023</p>
+                <img src="images/Vector.png" alt="" />
+              </div>
+            </div>
+            <select name="cars" id="cars">
+              <option value="volvo">سنويا</option>
+              <option value="saab">شهريا</option>
+            </select>
+          </div>
+          <div
+            class="chart tooltip-chart" data-tooltip='250 استخدام'
+            style="background-image: url('images/Chart Lines.png')"
+          >
+            <img src="images/Chart Flow.png" alt="" />
+          </div>
+
+          <div class="months">
+            <p>يناير</p>
+            <p>فبراير</p>
+            <p>مارس</p>
+            <p>ابريل</p>
+            <p>مايو</p>
+            <p>يونيو</p>
+            <p>يوليو</p>
+            <p>أغسطس</p>
+            <p>سبتمبر</p>
+            <p>أكتوبر</p>
+            <p>نوفمبر</p>
+            <p>ديسمبر</p>
+          </div>
+        </div>
+        <div class="ticket">
+          <div class="title">
+            <p>عرض التذكرة الخاصة بالفيلم</p>
+            <div class="delete">
+              <div class="tooltip" data-tooltip="حذف">
+                <img src="images/trash.png" alt="" />
+
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="link">
+            <p>www.tazkty.com/473847</p>
+            <img src="images/copy.png" alt="" />
+          </div>
+          <p class="description">فعال حتي 15 يوليو 2023</p>
+          <hr />
+          <div class="bottom">
+            <div class="right">
+              <p class='discount'>خصم</p>
+
+              <div class="discount-info" >
+                <p>25%</p>
+                <button class="share"><img src="images/send-2.png" alt="" />مشاركة</button>
+              </div>
+            </div>
+            <img src="images/qr.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="right">
+          <p>مبيعات التذاكر</p>
+          <div class="search">
+            <img src="images/search-normal.png" alt="" />
+            <input type="text" placeholder="بحث عن ..." />
+          </div>
+          <div class="middle-buttons">
+            <button><img src="images/menu.png" alt="" /></button>
+            <button><img src="images/arrows.png" alt="" /></button>
+          </div>
+        </div>
+        <div class="left">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <label class="label2">مفعلة</label>
+          <button>حجز تذكرة جديدة</button>
+        </div>
+      </div>
+      <div class="padding-table">
+        <table class="list">
+          <tr>
+            <th>#</th>
+            <th>المستخدم</th>
+            <th>رقم التذكرة</th>
+            <th>
+              قيمة التذكرة<img
+                src="images/arrow-3.png"
+                alt=""
+                style="margin-right: 0.56rem"
+              />
+            </th>
+            <th>السينمات</th>
+            <th>عدد الأشخاص</th>
+            <th>عدد مرات الشراء</th>
+            <th>التذكرة</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <div class="user-cell">
+                <img src="images/user1.png" alt="" class="user-pic" />
+                <div>
+                  <p class="name">أحمد محمود</p>
+                  <p class="phone">0123456789</p>
+                </div>
+              </div>
+            </td>
+            <td>C-101</td>
+            <td>$40</td>
+            <td class="tooltip-td" data-tooltip="صيدناوي مول، برج العرب">سينما مصر،مول العرب، برج الأطنان، سرايا القبة...</td>
+            <td>1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="ticket-cell">
+                <img src="images/present.png" alt="" class="present-pic" />
+                <div>
+                  <p class="ticket-title">تذكرة رقم 45.pdf</p>
+                  <p class="ticket-info">9mb . PDF</p>
+                </div>
+                <img src="images/download.png" alt="" class="download-pic" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <div class="user-cell">
+                <img src="images/user2.png" alt="" class="user-pic" />
+                <div>
+                  <p class="name">محمد الغريب</p>
+                  <p class="phone">0123456789</p>
+                </div>
+              </div>
+            </td>
+            <td>C-101</td>
+            <td>$40</td>
+            <td>سينما مصر،مول العرب، برج الأطنان، سرايا القبة</td>
+            <td>1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="ticket-cell">
+                <img src="images/present.png" alt="" class="present-pic" />
+                <div>
+                  <p  class="ticket-title">تذكرة رقم 45.pdf</p>
+                  <p class="ticket-info">9mb . PDF</p>
+                </div>
+                <img src="images/download.png" alt="" class="download-pic" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <div class="user-cell">
+                <img src="images/user3.png" alt="" class="user-pic" />
+                <div>
+                  <p class="name">محمد الغريب</p>
+                  <p class="phone">0123456789</p>
+                </div>
+              </div>
+            </td>
+            <td>C-101</td>
+            <td>$40</td>
+            <td>سينما مصر،مول العرب، برج الأطنان، سرايا القبة</td>
+            <td>1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="ticket-cell">
+                <img src="images/present.png" alt="" class="present-pic" />
+                <div>
+                  <p  class="ticket-title">تذكرة رقم 45.pdf</p>
+                  <p class="ticket-info">9mb . PDF</p>
+                </div>
+                <img src="images/download.png" alt="" class="download-pic" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              <div class="user-cell">
+                <img src="images/user4.png" alt="" class="user-pic" />
+                <div>
+                  <p class="name">محمد الغريب</p>
+                  <p class="phone">0123456789</p>
+                </div>
+              </div>
+            </td>
+            <td>C-101</td>
+            <td>$40</td>
+            <td>سينما مصر،مول العرب، برج الأطنان، سرايا القبة</td>
+            <td>1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="ticket-cell">
+                <img src="images/present.png" alt="" class="present-pic" />
+                <div>
+                  <p  class="ticket-title">تذكرة رقم 45.pdf</p>
+                  <p class="ticket-info">9mb . PDF</p>
+                </div>
+                <img src="images/download.png" alt="" class="download-pic" />
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="pagination">
+        <div class="right">
+          <p>عرض</p>
+          <select name="cars" id="cars">
+            <option value="volvo">20</option>
+            <option value="saab">40</option>
+            <option value="mercedes">50</option>
+            <option value="audi">60</option>
+          </select>
+          <p>من أصل 250</p>
+        </div>
+        <div class="left">
+          <button><img src="images/right button.png" alt="" /></button>
+          <div class="buttons">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+          </div>
+
+          <button><img src="images/left button.png" alt="" /></button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
