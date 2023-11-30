@@ -19,6 +19,7 @@ body {
   background-color: var(--main);
   direction: rtl;
   overflow-x: hidden;
+  min-height: 200vh;
 }
 html {
   font-family: "Neo Sans Arabic", sans-serif;
@@ -163,7 +164,7 @@ main {
 }
 .tooltip-chart {
   position: relative;
-  
+
   cursor: pointer;
 }
 .tooltip-chart::before {
